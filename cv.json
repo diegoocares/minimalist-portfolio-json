@@ -6,7 +6,7 @@
     "email": "diegoocares02@gmail.com",
     "phone": "+51 993596165",
     "url": "https://midu.dev",
-    "summary": "2 años de experiencia como Desarrollador Web Backend y en DevOps. Tengo experiencia en el desarrollo de aplicaciones robustas implementando arquitecturas escalables y código limpo. Vivo en Villa el Salvador, Perú. He trabajado en el desarrollo de herramientas automatizadas para diferentes clientes y dándoles mantenimiento.",
+    "summary": "Más de 2 años de experiencia como Desarrollador Web Backend y en DevOps. Tengo experiencia en el desarrollo de aplicaciones robustas implementando arquitecturas escalables y código limpo. Vivo en Villa el Salvador, Perú. He trabajado en el desarrollo de herramientas automatizadas para diferentes clientes y dándoles mantenimiento.",
     "location": {
       "address": "",
       "postalCode": "15828",
@@ -19,6 +19,16 @@
         "network": "GitHub",
         "username": "diegoocares",
         "url": "https://github.com/diegoocares"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Diego Ocares",
+        "url": "https://www.linkedin.com/in/diego-ocares-8b1ba8316/"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Solved Code",
+        "url": "https://www.linkedin.com/company/solvedcode/posts/?feedView=all"
       }
     ]
   },
@@ -59,8 +69,8 @@
       "url": "https://www.senati.edu.pe/",
       "area": "Desarrollo de Software",
       "studyType": "Bachelor",
-      "startDate": "2020-01-01",
-      "endDate": "2024-01-01"
+      "startDate": "2019-01-01",
+      "endDate": "2023-01-01"
     }
   ],
   "awards": [
