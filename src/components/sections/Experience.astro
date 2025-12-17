@@ -7,49 +7,54 @@ import { work } from "@cv"
 <Section title="Experiencia laboral">
   <ul>
     {
-      work.map(
-        ({ name, startDate, endDate, position, summary, highlights, url }) => {
-          const startYear = new Date(startDate).getFullYear()
-          const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
+  work.map(
+    ({ name, startDate, endDate, position, summary, highlights, url }) => {
+      const formatDate = (date: string) => {
+        const [year, month] = date.split("-").map(Number)
 
-          return (
-            <li>
-              <article>
-                <header>
-                  <div>
-                    <h3>
-                      <a href={url} title={`Ver ${name}`} target="_blank">
-                        {name}
-                      </a>
-                    </h3>
-                    <h4>{position}</h4>
-                  </div>
+        return new Intl.DateTimeFormat("es-ES", {
+          month: "long",
+          year: "numeric",
+          timeZone: "UTC",
+        }).format(new Date(year, month - 1))
+      }
 
-                  <div>
-                    <time 
-                      datetime={startDate}
-                      data-title={startDate}>
-                        {startYear}
-                    </time>
-                    {" - "}
-                    <time 
-                      datetime={endDate}
-                      data-title={endDate}>
-                        {endYear}
-                    </time>
-                  </div>
-                </header>
+      const startLabel = formatDate(startDate)
+      const endLabel = endDate ? formatDate(endDate) : "Actual"
 
-                <footer>
-                  <p>{summary}</p>
-                </footer>
-              </article>
-            </li>
-          )
-        }
+      return (
+        <li>
+          <article>
+            <header>
+              <div>
+                <h3>
+                  <a href={url} title={`Ver ${name}`} target="_blank">
+                    {name}
+                  </a>
+                </h3>
+                <h4>{position}</h4>
+              </div>
+
+              <div>
+                <time datetime={startDate} data-title={startDate}>
+                  {startLabel}
+                </time>
+                {" - "}
+                <time datetime={endDate} data-title={endDate}>
+                  {endLabel}
+                </time>
+              </div>
+            </header>
+
+            <footer>
+              <p>{summary}</p>
+            </footer>
+          </article>
+        </li>
       )
     }
+  )
+}
   </ul>
 </Section>
 
