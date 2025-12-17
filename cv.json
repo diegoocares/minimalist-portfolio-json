@@ -17,160 +17,168 @@
     "profiles": [
       {
         "network": "GitHub",
-        "username": "midudev",
+        "username": "diegoocares",
         "url": "https://github.com/diegoocares"
       }
     ]
   },
   "work": [
     {
+      "name": "birdtur",
+      "position": "Backend Developer",
+      "url": "https://www.birdtur.com/",
+      "startDate": "2025-02",
+      "endDate": "2025-12",
+      "summary": "Sistema turístico. Formé parte del equipo encargado de diseñar el sistema y la base de datos. He implementado múltiples sistemas: gestión de múltiples entidades, pasarela de pagos, sistema de reservas, entre otros.",
+      "highlights": ["Backend developer"]
+    },
+    {
       "name": "easyhotel",
       "position": "Backend Developer",
       "url": "https://www.easyhotel.pe/",
-      "startDate": "2023-12-02",
-      "endDate": null,
+      "startDate": "2023-12",
+      "endDate": "2025-04",
       "summary": "Sistema de gestión hotelera. Formé parte del equipo encargado de diseñar mejoras del sistema y optimización de la base de datos. He desarrollado herramientas que mejoran el desarrollo y gestión del proyecto.",
-      "highlights": [
-        "Started the company"
-      ]
+      "highlights": ["Started the company"]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "SENATI",
-    "url": "https://www.senati.edu.pe/",
-    "area": "Desarrollo de Software",
-    "studyType": "Bachelor",
-    "startDate": "2020-01-01",
-    "endDate": "2024-01-01"
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "SENATI",
+      "url": "https://www.senati.edu.pe/",
+      "area": "Desarrollo de Software",
+      "studyType": "Bachelor",
+      "startDate": "2020-01-01",
+      "endDate": "2024-01-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
   "skills": [
     {
       "name": "HTML",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend"]
     },
     {
       "name": "CSS",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
     },
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "TypeScript",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
       ]
     },
     {
       "name": "Node",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
     },
     {
       "name": "MySQL",
       "level": "Avanzado",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
       "name": "Git",
       "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     },
     {
       "name": "GitHub",
       "level": "Avanzado",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
       ]
     },
     {
       "name": "Next.js",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
       ]
     },
     {
       "name": "PHP",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "DevOps"
-      ]
+      "keywords": ["Desarrollo Web", "DevOps"]
     },
     {
       "name": "Laravel",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "PHP Framework"
-      ]
+      "keywords": ["Desarrollo Web", "Backend", "PHP Framework"]
     },
     {
       "name": "AWS",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "DevOps"
-      ]
+      "keywords": ["Desarrollo Web", "DevOps"]
     },
     {
       "name": "Nginx",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "DevOps"
-      ]
+      "keywords": ["Desarrollo Web", "DevOps"]
     },
     {
       "name": "Vercel",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "DevOps"
-      ]
+      "keywords": ["Desarrollo Web", "DevOps"]
     }
   ],
   "languages": [
@@ -179,32 +187,45 @@
       "fluency": "Native speaker"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
   "projects": [
     {
-      "name": "Easy Hotel",
+      "name": "Birdtur System",
       "isActive": true,
+      "description": "Herramienta de gestión turística que facilita la administración de reservas, clientes y servicios turísticos, optimizando las operaciones diarias de las agencias de viajes.",
+      "highlights": [
+        "+1000 usuarios únicos mensuales",
+        "+1500 alojamientos",
+        "Nest JS & Next JS & Typescript"
+      ],
+      "url": "https://company.birdtur.com/"
+    },
+    {
+      "name": "Easy Hotel",
+      "isActive": false,
       "description": "Plataforma digital que utiliza geolocalización y un catálogo en línea para simplificar la búsqueda y reserva de alojamientos en todo el Perú.",
       "highlights": [
         "+1000 usuarios únicos mensuales",
         "+1500 alojamientos",
+        "PHP Laravel & MySQL & AWS",
         "Next JS & Typescript"
       ],
       "url": "https://www.easyhotel.pe/"
     },
     {
       "name": "Easy Hotel System",
-      "isActive": true,
+      "isActive": false,
       "description": "Herramienta integral para la gestión hotelera, que facilita el control total de habitaciones, tipos, servicios y más, todo a través de una interfaz sencilla y adaptable.",
       "highlights": [
         "Gestión hotelera",
@@ -215,12 +236,9 @@
     },
     {
       "name": "Easy Hotel ERP",
-      "isActive": true,
+      "isActive": false,
       "description": "ERP empresarial diseñado para optimizar la gestión interna de la empresa.",
-      "highlights": [
-        "PHP & MySQL & Laravel & AWS",
-        "TypeScript & React"
-      ],
+      "highlights": ["PHP & MySQL & Laravel & AWS", "TypeScript & React"],
       "url": "https://erp.easyhotel.pe/"
     }
   ]
