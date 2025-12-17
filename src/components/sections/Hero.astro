@@ -46,6 +46,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
               rel="noopener noreferrer"
             >
               <Mail />
+              {email}
             </a>
           )
         }
@@ -58,6 +59,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
               rel="noopener noreferrer"
             >
               <Phone />
+              {phone}
             </a>
           )
         }
@@ -73,6 +75,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
                 rel="noopener noreferrer"
               >
                 <Icon />
+                {username}
               </a>
             )
           })
@@ -144,7 +147,9 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     border: 1px solid #eee;
     padding: 4px;
     height: 32px;
-    width: 32px;
+    width: auto; /* Changed from 32px to auto */
+    padding: 0 10px; /* added horizontal padding */
+    gap: 8px; /* added gap between icon and text */
     border-radius: 6px;
     transition: all 0.3s ease;
   }
